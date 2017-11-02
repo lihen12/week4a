@@ -1,0 +1,139 @@
+body {
+  /* Change my background, and set global font family.*/
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+
+.content-wrapper {
+  /* Center on page, set width */
+  width: 1000px;
+  margin: auto;
+  background-color: white;
+  
+}
+
+header h1 {
+  /* Make bigger and color, Change font family to sans serif and center */
+  font-family: sans-serif;
+  font-size: 2.5rem;
+  color: darkred;
+  text-align: center;
+  padding: 1rem;
+}
+
+.mainnav ul li a {
+  /* Change background color, remove bullets, border on each individual nav element. create and float links, center our content within the links. width, font color, change font family */
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  float: left;
+  list-style-type: none;
+  background-color: #ff3333;
+  width: 142.85px;
+  text-align: center;
+  border-left: 4px solid lightgray;
+  padding: .5rem;
+  
+}
+
+.mainnav li:first-child a {
+  border-left: 0 none;
+}
+
+.mainnav a {
+  text-decoration: none;
+  color: white;
+}
+
+aside {
+  /* clear float, background color, float, font color */
+  clear: both;
+  float: left;
+  background-color: dimgrey;
+  font-size: 1.3rem;
+  font-weight: bold;
+  width: 21%;
+  margin: auto;
+  text-align: center;
+  padding: 10rem 3rem 11.27rem;
+  
+}
+
+aside a {
+  text-decoration: none;
+  color: white;
+}
+
+aside ul li {
+    /* clear both, links? */
+  clear: both;
+  list-style-type: none;
+  padding: .5em;
+}
+
+aside ul li img {
+  width: 120%;
+  border: .2em solid red;
+}
+
+.bulls1 {
+  float:left;
+  text-align: left;
+}
+.bulls2 {
+  float: left;
+  text-align: left;
+}
+
+.bulls3 {
+  float: left;
+  text-align: left;
+}
+
+section {
+  /* background-color, float to the right?, font size  */
+  /*clear:both; why does this mess up my styling? */
+  background-color: lightgray;
+  float: right;
+  width: 79%;
+  margin: auto;
+}
+
+figure  {
+/* Center, size of the font */  
+  text-align: center;
+  padding: 6rem 3rem 2rem;
+  font-family: sans-serif;
+}
+
+.boxscore {
+  text-align: center;
+  padding: 0rem 3rem .53rem;
+  font-family: sans-serif;
+}
+
+figure img {
+  padding: 2rem;
+  width: 100%
+}
+
+footer {
+  /* float the images, create links, center links */
+  clear: both;
+  float: left;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  background-color: white;
+  padding: 6.8%;
+}
+
+footer a {
+  padding: 1rem;
+}
+
+footer a img {
+  width: 5%;
+  
+}
+
